@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 155, 161);
+}
+#card{
+    height: 410px;
+    width: 290px;
+    background-color: white;
+    border-radius: 13px;
+    padding: 25px;
+    text-align: center;
+}
+#card img{
+    height: 50%;
+    width: 100%;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 15px;
+}
+#card h1{
+    font-size: 27px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+#card h4{
+    font-size: 25px;
+    color: red;
+    margin-bottom: 20px;
+}
+#card button{
+    background-color: cadetblue;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 12px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
